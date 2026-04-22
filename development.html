@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development — Johanne Courtright</title>
+  <meta name="description" content="WordPress development projects featuring custom Gutenberg blocks, ACF, React, Tailwind, and modern block-native architecture.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">JC</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html#work" class="nav-link">Work</a>
+        <a href="design-development.html" class="nav-link">Design & Dev</a>
+        <a href="development.html" class="nav-link" aria-current="page">Development</a>
+        <a href="ui-ux.html" class="nav-link">UI/UX</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <h1>Web Development</h1>
+    <p>Custom WordPress development with modern block-native architecture</p>
+  </div>
+
+  <div class="projects">
+
+    <!-- Live Work Maryland -->
+    <article class="project fade-in" id="liveworkmaryland">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Multisite</div>
+          <h2 class="project-title">Live Work Maryland &amp; Business Maryland</h2>
+          <p class="project-desc">Two state government sites running on a single WordPress multisite. Built custom search, post types, taxonomies, and a full suite of Gutenberg blocks to give editors flexible, structured content management across both properties.</p>
+          <div class="project-tech">
+            <span>PHP</span><span>MySQL</span><span>ACF</span><span>Gutenberg/React</span><span>JavaScript</span><span>jQuery</span><span>Git</span><span>Tailwind</span><span>Responsive</span>
+          </div>
+        </div>
+        <div class="project-link">
+          <a href="https://liveworkmaryland.com/" target="_blank" rel="noopener">liveworkmaryland.com ↗</a><br>
+          <a href="https://business.maryland.gov/" target="_blank" rel="noopener">business.maryland.gov ↗</a>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/liveworkmaryland-website.png" alt="Live Work Maryland website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/liveworkmaryland.jpg" alt="Live Work Maryland homepage" loading="lazy">
+        <img src="images/liveworkmaryland-work-remote-work.jpg" alt="Live Work Maryland remote work page" loading="lazy">
+        <img src="images/liveworkmaryland-work-leading-industries.jpg" alt="Live Work Maryland leading industries" loading="lazy">
+        <img src="images/liveworkmaryland-work.jpg" alt="Live Work Maryland work section" loading="lazy">
+        <img src="images/business-maryland-gov.jpg" alt="Business Maryland homepage" loading="lazy">
+        <img src="images/business-maryland-gov-why-maryland-diversity-equity-inclusion.jpg" alt="Business Maryland diversity page" loading="lazy">
+        <img src="images/business-maryland-gov-news.jpg" alt="Business Maryland news" loading="lazy">
+        <img src="images/business-maryland-gov-news-garrett-college-launches-workforce-program-for-marine-industry.jpg" alt="Business Maryland news article" loading="lazy">
+      </div>
+    </article>
+
+    <!-- VetMotl -->
+    <article class="project fade-in" id="vetmotl">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">VetMotl</h2>
+          <p class="project-desc">Custom WordPress build for a veteran-focused hospitality brand. Developed tailored Gutenberg blocks and structured content fields to support the site's unique content needs.</p>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/vetmotl-website.png" alt="VetMotl website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/vetmotl.jpg" alt="VetMotl homepage" loading="lazy">
+        <img src="images/vetmotl-about.jpg" alt="VetMotl about page" loading="lazy">
+        <img src="images/vetmotl-faqs.jpg" alt="VetMotl FAQs" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Omnia Exterior Solutions -->
+    <article class="project fade-in" id="omnia">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">Omnia Exterior Solutions</h2>
+          <p class="project-desc">Corporate site for a national roofing and exterior solutions company. Custom Gutenberg blocks power a content-rich marketing site with newsroom, partner directory, and service pages.</p>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/omniaexteriorsolutions-website.png" alt="Omnia Exterior Solutions website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/omniaexteriorsolutions.jpg" alt="Omnia homepage" loading="lazy">
+        <img src="images/omniaexteriorsolutions-newsroom.jpg" alt="Omnia newsroom" loading="lazy">
+        <img src="images/omniaexteriorsolutions-newsroom-omnia-women-shaping-the-roofing-industry.jpg" alt="Omnia news article" loading="lazy">
+        <img src="images/omniaexteriorsolutions-about.jpg" alt="Omnia about" loading="lazy">
+        <img src="images/omniaexteriorsolutions-our-advantage.jpg" alt="Omnia our advantage" loading="lazy">
+        <img src="images/omniaexteriorsolutions-partners.jpg" alt="Omnia partners" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Quillion Wealth Management -->
+    <article class="project fade-in" id="quillion">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">Quillion Wealth Management</h2>
+          <p class="project-desc">Financial services site with custom post types for team profiles and service offerings. Built with Gutenberg blocks and structured taxonomies to let the firm manage advisors and retirement plan content independently.</p>
+          <div class="project-tech">
+            <span>PHP</span><span>MySQL</span><span>Gutenberg/React</span><span>JavaScript</span><span>jQuery</span><span>Git</span><span>Tailwind</span><span>Responsive</span>
+          </div>
+        </div>
+        <div class="project-link">
+          <a href="https://quillionwm.com/" target="_blank" rel="noopener">quillionwm.com ↗</a>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/quillionwm-website.png" alt="Quillion Wealth Management website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/quillionwm.jpg" alt="Quillion homepage" loading="lazy">
+        <img src="images/quillionwm-about.jpg" alt="Quillion about" loading="lazy">
+        <img src="images/quillionwm-about-meet-our-team.jpg" alt="Quillion team" loading="lazy">
+        <img src="images/quillionwm-profile-jeffrey-w-link.jpg" alt="Quillion team profile" loading="lazy">
+        <img src="images/quillionwm-what-we-do-corporate-retirement-plan-services.jpg" alt="Quillion services" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Toro Haven -->
+    <article class="project fade-in" id="toro-haven">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">Toro Haven</h2>
+          <p class="project-desc">Product site for Toro's robotic mower line featuring GSAP-driven animations and full multi-language support via WPML. Custom Gutenberg blocks deliver a polished, interactive product experience.</p>
+          <div class="project-tech">
+            <span>PHP</span><span>MySQL</span><span>ACF</span><span>Gutenberg/React</span><span>GSAP</span><span>JavaScript</span><span>jQuery</span><span>Git</span><span>Tailwind</span><span>Responsive</span><span>WPML</span>
+          </div>
+        </div>
+        <div class="project-link">
+          <a href="https://smartyard.toro.com/" target="_blank" rel="noopener">smartyard.toro.com ↗</a>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/toro-haven-website.png" alt="Toro Haven website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/smartyard-toro.jpg" alt="Toro Haven homepage" loading="lazy">
+        <img src="images/smartyard-toro-haven-robotic-mower.jpg" alt="Toro Haven robotic mower" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Kelly Benefits -->
+    <article class="project fade-in" id="kellybenefits">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">Kelly Benefits</h2>
+          <p class="project-desc">Benefits administration company site with custom search, team directories, event listings, and service pages. Built with custom post types, taxonomies, and ACF-powered widgets for flexible content management.</p>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/kellybenefits-website.png" alt="Kelly Benefits website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/kellybenefits.jpg" alt="Kelly Benefits homepage" loading="lazy">
+        <img src="images/kellybenefits-about-our-people.jpg" alt="Kelly Benefits our people" loading="lazy">
+        <img src="images/kellybenefits-about-our-people-john-r-kelly.jpg" alt="Kelly Benefits team member" loading="lazy">
+        <img src="images/kellybenefits-payroll-benefits-administration-and-technology.jpg" alt="Kelly Benefits services" loading="lazy">
+        <img src="images/kellybenefits-advantage-employee-solutions.jpg" alt="Kelly Benefits solutions" loading="lazy">
+        <img src="images/kellybenefits-strategies-events.jpg" alt="Kelly Benefits events" loading="lazy">
+      </div>
+    </article>
+
+    <!-- St. John Properties -->
+    <article class="project fade-in" id="sjpi">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">St. John Properties</h2>
+          <p class="project-desc">Commercial real estate firm's site with property search, regional office directories, team profiles, and milestone timelines. Custom post types, taxonomies, and search functionality give the site depth across a large property portfolio.</p>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/sjpi-website.png" alt="St. John Properties website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/sjpi-1.jpg" alt="SJPI homepage" loading="lazy">
+        <img src="images/sjpi-about-milestones.jpg" alt="SJPI milestones" loading="lazy">
+        <img src="images/sjpi-about-regional-offices.jpg" alt="SJPI regional offices" loading="lazy">
+        <img src="images/sjpi-about-team-1.jpg" alt="SJPI team" loading="lazy">
+        <img src="images/sjpi-properties-maryland-single-story-office-11155-dolfield-boulevard.jpg" alt="SJPI property listing" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Toro Flexforce Stripe -->
+    <article class="project fade-in" id="toro-stripe">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">Landing Page &middot; WordPress</div>
+          <h2 class="project-title">Toro Flexforce — Stripe</h2>
+          <p class="project-desc">Product landing page for Toro's Stripe mower with Rellax-powered parallax scrolling. Custom blocks and ACF fields create an immersive, scroll-driven product showcase.</p>
+          <div class="project-tech">
+            <span>PHP</span><span>MySQL</span><span>ACF</span><span>Rellax Parallax</span><span>JavaScript</span><span>jQuery</span><span>Git</span><span>LESS</span><span>Responsive</span>
+          </div>
+        </div>
+        <div class="project-link">
+          <a href="https://flexforce.toro.com/products/60v-max-21-stripe-mower/" target="_blank" rel="noopener">flexforce.toro.com ↗</a>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/tor-flexforce-stripe-website.png" alt="Toro Flexforce Stripe landing page">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/stripe-1.jpg" alt="Toro Stripe detail 1" loading="lazy">
+        <img src="images/stripe-2.jpg" alt="Toro Stripe detail 2" loading="lazy">
+        <img src="images/stripe-3.jpg" alt="Toro Stripe detail 3" loading="lazy">
+        <img src="images/stripe-4.jpg" alt="Toro Stripe detail 4" loading="lazy">
+        <img src="images/stripe-5.jpg" alt="Toro Stripe detail 5" loading="lazy">
+        <img src="images/stripe-6.jpg" alt="Toro Stripe detail 6" loading="lazy">
+        <img src="images/stripe-7.jpg" alt="Toro Stripe detail 7" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Duralast -->
+    <article class="project fade-in" id="duralast">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">Liquid Website</div>
+          <h2 class="project-title">Duralast Parts</h2>
+          <p class="project-desc">Content migration and redesign for an automotive parts brand. Rebuilt the site on Liquid templating infrastructure with a modernized look while preserving the existing content structure.</p>
+          <div class="project-tech">
+            <span>PHP</span><span>JavaScript</span><span>jQuery</span><span>Git</span><span>Tailwind</span><span>Liquid Template</span><span>Responsive</span>
+          </div>
+        </div>
+        <div class="project-link">
+          <a href="https://www.duralastparts.com/" target="_blank" rel="noopener">duralastparts.com ↗</a>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/duralast-website.png" alt="Duralast Parts website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/duralastparts.jpg" alt="Duralast homepage" loading="lazy">
+        <img src="images/duralastparts-starters.jpg" alt="Duralast starters" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Park School -->
+    <article class="project fade-in" id="parkschool">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">Park School</h2>
+          <p class="project-desc">Private school site with custom Gutenberg blocks for events, faculty directories, and campus life content. ACF-driven fields give administrators intuitive content editing.</p>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/parkschoolnet-website.png" alt="Park School website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/parkschool-net.jpg" alt="Park School homepage" loading="lazy">
+        <img src="images/parkschool-net-events.jpg" alt="Park School events" loading="lazy">
+        <img src="images/parkschool-net-events-spring-production-a-flea-in-her-ear-3.jpg" alt="Park School event detail" loading="lazy">
+        <img src="images/parkschool-net-faculty-staff.jpg" alt="Park School faculty" loading="lazy">
+        <img src="images/parkschool-net-faculty-staff-jamie-altchek.jpg" alt="Park School faculty profile" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Johns Hopkins School of Nursing -->
+    <article class="project fade-in" id="jhu-nursing">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">Johns Hopkins School of Nursing</h2>
+          <p class="project-desc">Development for one of the top nursing schools in the country. Custom Gutenberg blocks support faculty research profiles, events, the SON Vitals publication, and newsroom content.</p>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/nursing-jhu-website.png" alt="Johns Hopkins School of Nursing website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/nursing-jhu-edu.jpg" alt="JHU Nursing homepage" loading="lazy">
+        <img src="images/nursing-jhu-edu-faculty-research-faculty-directory.jpg" alt="JHU Nursing faculty directory" loading="lazy">
+        <img src="images/nursing-jhu-edu-faculty-research-faculty-directory-deborah-baker.jpg" alt="JHU Nursing faculty profile" loading="lazy">
+        <img src="images/nursing-jhu-edu-newsroom.jpg" alt="JHU Nursing newsroom" loading="lazy">
+        <img src="images/nursing-jhu-edu-sonvitals.jpg" alt="JHU Nursing SON Vitals" loading="lazy">
+        <img src="images/nursing-jhu-edu-events.jpg" alt="JHU Nursing events" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Curio Wellness -->
+    <article class="project fade-in" id="curiowellness">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">Curio Wellness</h2>
+          <p class="project-desc">Wellness brand site with product catalog, store locator, and custom search. Gutenberg blocks power product detail pages and a "where to buy" directory with location-based filtering.</p>
+          <div class="project-tech">
+            <span>PHP</span><span>MySQL</span><span>ACF</span><span>Gutenberg/React</span><span>JavaScript</span><span>jQuery</span><span>Git</span><span>Tailwind</span><span>Responsive</span>
+          </div>
+        </div>
+        <div class="project-link">
+          <a href="https://curiowellness.com/" target="_blank" rel="noopener">curiowellness.com ↗</a>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/curiowellness-website.png" alt="Curio Wellness website">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/curiowellness.jpg" alt="Curio Wellness homepage" loading="lazy">
+        <img src="images/curiowellness-product.jpg" alt="Curio Wellness product" loading="lazy">
+        <img src="images/curiowellness-where-to-buy.jpg" alt="Curio Wellness where to buy" loading="lazy">
+        <img src="images/curiowellness-product-blood-orange-turmeric-chews-25mg.jpg" alt="Curio Wellness product detail" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Help for Alzheimers Families -->
+    <article class="project fade-in" id="alzheimers">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">Help for Alzheimers Families</h2>
+          <p class="project-desc">Resource platform for Alzheimer's caregivers with custom search, integrated third-party APIs, and specialized content widgets. Built to connect families with support services and educational resources.</p>
+          <div class="project-tech">
+            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>jQuery</span><span>Git</span><span>Bootstrap 4</span><span>SASS</span><span>Responsive</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/helpforalzheimersfamilies.png" alt="Help for Alzheimers Families">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/helpforalzheimersfamilies-1t.jpg" alt="Help for Alzheimers detail 1" loading="lazy">
+        <img src="images/helpforalzheimersfamilies-2t.jpg" alt="Help for Alzheimers detail 2" loading="lazy">
+        <img src="images/helpforalzheimersfamilies-3t.jpg" alt="Help for Alzheimers detail 3" loading="lazy">
+        <img src="images/helpforalzheimersfamilies-4t.jpg" alt="Help for Alzheimers detail 4" loading="lazy">
+        <img src="images/helpforalzheimersfamilies-5t.jpg" alt="Help for Alzheimers detail 5" loading="lazy">
+        <img src="images/helpforalzheimersfamilies-6t.jpg" alt="Help for Alzheimers detail 6" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Penn National -->
+    <article class="project fade-in" id="pennnational">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">WordPress Website</div>
+          <h2 class="project-title">Penn National</h2>
+          <p class="project-desc">Home builder site with custom property search, community pages, and HubSpot CRM integration. Multiple API connections feed real-time data into a content-rich marketing platform.</p>
+          <div class="project-tech">
+            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>jQuery</span><span>Git</span><span>HubSpot</span><span>Bootstrap 4</span><span>SASS</span><span>Responsive</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-hero">
+        <img src="images/pennhomes.png" alt="Penn National">
+      </div>
+      <div class="project-screenshots">
+        <img src="images/pennnational-1t.jpg" alt="Penn National detail 1" loading="lazy">
+        <img src="images/pennnational-2t.jpg" alt="Penn National detail 2" loading="lazy">
+        <img src="images/pennnational-3t.jpg" alt="Penn National detail 3" loading="lazy">
+        <img src="images/pennnational-4t.jpg" alt="Penn National detail 4" loading="lazy">
+        <img src="images/pennnational-5t.jpg" alt="Penn National detail 5" loading="lazy">
+      </div>
+    </article>
+
+    <!-- Lead Generation Campaigns -->
+    <article class="project fade-in" id="leadgen">
+      <div class="project-header">
+        <div class="project-meta">
+          <div class="project-type">Landing Pages</div>
+          <h2 class="project-title">Lead Generation Campaigns</h2>
+          <p class="project-desc">Conversion-focused landing pages for home builder and community marketing campaigns. Custom WordPress builds with CRM API integrations for lead capture and nurturing.</p>
+          <div class="project-tech">
+            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>jQuery</span><span>Git</span><span>Bootstrap 4</span><span>SASS</span><span>Responsive</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-screenshots project-screenshots--light">
+        <img src="images/saludariverclub.png" alt="Saluda River Club" loading="lazy" data-full="images/saludariverclub-detail.jpg">
+        <img src="images/parksprings-leadgen.png" alt="Park Springs" loading="lazy" data-full="images/parksprings-detail.jpg">
+        <img src="images/explorepennhomes.png" alt="Explore Penn Homes" loading="lazy" data-full="images/explorepennnational-detail.jpg">
+        <img src="images/longleafcommunities.png" alt="Long Leaf Communities" loading="lazy" data-full="images/longleafsouth.jpg">
+        <img src="images/simplemeds.png" alt="Simplemeds" loading="lazy" data-full="images/simplemeds-detail.jpg">
+      </div>
+    </article>
+
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="nav-logo">JC</a>
+        <span class="footer-copy">&copy; 2026 Johanne Courtright</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://groundworx.dev" target="_blank" rel="noopener">Groundworx</a>
+        <a href="https://groundworxagency.com" target="_blank" rel="noopener">Agency</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
